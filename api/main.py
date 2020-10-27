@@ -15,7 +15,7 @@ cwd_path = Path('../save_folder')
 
 @app.get("/")
 def read_root():
-    return {"Ukázková stránka"}
+    return "Ukázková stránka"
 
 @app.get("/hello")
 def read_hello():
